@@ -1,0 +1,33 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  color: #333333;
+}
+
+.App-pg {
+  text-align: center;
+}
+
+.App-pg > h1,
+.App-pg > h2,
+.App-pg > h3,
+.App-pg > h4,
+.App-pg > h5,
+.App-pg > h6,
+.cart-title {
+  color:#333333;
+}
+
+.pg-override {
+  color: #333333 !important;
+}
