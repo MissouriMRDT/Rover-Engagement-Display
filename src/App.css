@@ -10,12 +10,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: top;
+  justify-content: center;
   color: #333333;
 }
 
 .App-pg {
   text-align: center;
+}
+
+.GPS {
+  flex-grow: 1;
+  margin-right: 5px;
+  margin-top: 10px;
+  width: 60%;
 }
 
 .App-pg > h1,
@@ -30,4 +37,38 @@
 
 .pg-override {
   color: #333333 !important;
+}
+
+.container {
+  display: grid;
+  font-family: arial;
+  border-top-width: 28px;
+  border-color: #990000;
+  border-bottom-width: 2px;
+  border-style: solid;
+  grid-row-start: 2;
+  grid: repeat(4, 36px) / auto-flow dense;
+  padding: 5px;
+  height: calc(100% - 47px);
+};
+
+.label {
+  margin-top: '-10px';
+  position: relative;
+  top: 24px;
+  left: 3px;
+  font-family: arial;
+  font-size: 16px;
+  z-index: 1;
+  color: white;
+}
+
+.card {
+  border-color: #990000;
+  border-style: solid;
+  border-width: 3px;
+}
+
+hr {
+  border-style: solid;
 }
